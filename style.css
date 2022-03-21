@@ -20,6 +20,13 @@
     font-style: normal;
 }
 
+.body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .footer {
     background: url(files/Pamiar-homepage.png);
@@ -41,9 +48,10 @@
 }
 
 .main-text {
-    font-family: Gilroy-Extra-Bold;
-    font-size: 70px;
-    line-height: 72.4px;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    padding: 0 20%;
+}
 }
 
 .mini-main-text-item {
