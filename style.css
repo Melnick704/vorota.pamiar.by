@@ -32,6 +32,10 @@
     align-items: center;
 }
 
+.social-item:hover {
+    cursor: pointer;
+}
+
 .wallpaper {
     height: 750px;
     width: 100%;
@@ -62,6 +66,7 @@
     color: white;
     font-weight: 800;
     font-size: 75px;
+    margin-bottom: 120px;
 }
 
 .main-text-wrapper {
@@ -95,6 +100,28 @@
 .sub-stat-text {
     font-weight: 500;
     font-size: 10px;
+}
+
+.first-part-wrapper {
+    display: flex;
+    width: 65vw;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.number {
+    font-size: 20px;
+    font-weight: 500;
+    width: 250px;
+}
+
+.part-title {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.description {
+    width: 300px;
 }
 
 .body {
