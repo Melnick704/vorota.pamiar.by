@@ -200,3 +200,15 @@
     width: 20px;
 }
 
+.inst-1, .fcbk-1 {
+    fill: black;
+    transition: fill 0.13s ease-in-out;
+}
+
+.social-item.inst:hover .inst-1 {
+    fill: #2C94FC;
+}
+
+.social-item.fcbk:hover .fcbk-1 {
+    fill: #2C94FC;
+}
