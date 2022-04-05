@@ -34,10 +34,6 @@
     align-items: center;
 }
 
-.social-item:hover {
-    cursor: pointer;
-}
-
 .wallpaper {
     height: 750px;
     width: 100%;
@@ -209,6 +205,6 @@
     fill: #2C94FC;
 }
 
-.social-item.fcbk:hover .fcbk-1 {
+.fcbk:hover .fcbk-1 {
     fill: #2C94FC;
 }
