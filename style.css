@@ -196,6 +196,19 @@
     width: 20px;
 }
 
+.a-class {
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.13s ease-in-out;
+}
+
+.a-class:hover {
+    color:#2C94FC;
+}
+
 .fcbk {
     display: flex;
 }
