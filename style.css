@@ -196,6 +196,10 @@
     width: 20px;
 }
 
+.fcbk {
+    display: flex;
+}
+
 .inst-1, .fcbk-1 {
     fill: black;
     transition: fill 0.13s ease-in-out;
