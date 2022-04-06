@@ -54,9 +54,7 @@
     align-items: center;
     color: white;
     font-weight: 600;
-}
-
-.but:hover {
+    text-decoration: none;
     cursor: pointer;
 }
 
@@ -225,22 +223,4 @@
 
 .fcbk:hover .fcbk-1 {
     fill: #2C94FC;
-}
-
-.callback-wrapper {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px 20px;
-}
-
-.callback-item {
-    background-color: white;
-    padding: 30px 20px;
 }
