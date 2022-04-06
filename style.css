@@ -4,6 +4,10 @@
     font-family: 'Montserrat';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header-wrapper {
     width: 70vw;
     height: 75px;
@@ -223,4 +227,36 @@
 
 .fcbk:hover .fcbk-1 {
     fill: #2C94FC;
+}
+
+.vorota-wrapper {
+    width: 70vw;
+    margin: 0px auto;
+}
+
+.part-title {
+    margin-bottom: 60px;
+}
+
+.item-title {
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -30px;
+    justify-content: space-between;
+}
+
+.item {
+    padding: 0px 20px;
+}
+
+.item img {
+    height: 315px;
+    width: 420px;
 }
