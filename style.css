@@ -208,6 +208,13 @@ html {
     transition: color 0.13s ease-in-out;
 }
 
+.vorota-menu {
+    font-weight: 700;
+    display: flex;
+    font-size: 14px;
+    list-style-type: none;
+}
+
 .a-class:hover {
     color:#2C94FC;
 }
@@ -232,11 +239,9 @@ html {
 .vorota-wrapper {
     width: 70vw;
     margin: 0px auto;
+    margin-top: 200px;
 }
 
-.part-title {
-    margin-bottom: 60px;
-}
 
 .item-title {
     font-weight: 600;
@@ -250,13 +255,58 @@ html {
     flex-wrap: wrap;
     margin: 0px -30px;
     justify-content: space-between;
+    display: none;
 }
 
-.item {
+.vorota-menu-item {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+li {
+    list-style-type: none;
+    padding: 0 28px;
+    color: #a7a7a7;
+}
+
+.content-item {
     padding: 0px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: -20px;
+}
+
+.items:target {
+    display: block;
 }
 
 .item img {
     height: 315px;
     width: 420px;
+}
+
+.vorota-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: -28px;
+    padding-bottom: 70px;
+}
+
+.content-item {
+    display: none;
+    
+}
+
+.content-item.is-active {
+    display: flex;
+}
+
+.tab-item {
+    cursor: pointer;
+}
+
+.tab-item.is-active {
+    color: black;
 }
