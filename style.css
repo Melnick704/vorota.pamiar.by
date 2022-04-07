@@ -237,17 +237,17 @@ html {
 }
 
 .vorota-wrapper {
-    width: 70vw;
+    max-width: 70vw;
     margin: 0px auto;
     margin-top: 200px;
 }
-
 
 .item-title {
     font-weight: 600;
     font-size: 22px;
     margin-top: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    color: black;
 }
 
 .items {
@@ -282,8 +282,18 @@ li {
 }
 
 .item img {
-    height: 315px;
-    width: 420px;
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
 }
 
 .vorota-header {
@@ -296,17 +306,44 @@ li {
 
 .content-item {
     display: none;
-    
+}
+
+.tab-item:hover {
+    color: #2C94FC;
 }
 
 .content-item.is-active {
-    display: flex;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    width: 100%;
 }
 
 .tab-item {
     cursor: pointer;
+    transition: color 0.13s ease-in-out;
 }
 
 .tab-item.is-active {
     color: black;
+}
+
+.item-line svg {
+    height: 24px;
+    width: auto;
+    padding-right: 15px;
+    padding-left: 40px;
+}
+
+.item-line, .description-item, .galerea-item {
+    display: flex;
+    align-items: center;
+}
+
+.item-line {
+    justify-content: left;
+    margin-left: -40px;
+}
+
+.item {
+    width: 100%;
 }
