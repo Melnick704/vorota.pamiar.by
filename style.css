@@ -125,6 +125,7 @@ html {
 .part-title {
     font-size: 30px;
     font-weight: 800;
+    padding-right: 28px;
 }
 
 .part-title-number {
@@ -269,14 +270,6 @@ li {
     color: #a7a7a7;
 }
 
-.content-item {
-    padding: 0px 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: -20px;
-}
-
 .items:target {
     display: block;
 }
@@ -299,7 +292,6 @@ ul {
 .vorota-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-right: -28px;
     padding-bottom: 70px;
 }
@@ -314,8 +306,11 @@ ul {
 
 .content-item.is-active {
     display: grid;
+    justify-content: space-between;
     grid-template-columns: 32% 32% 32%;
     width: 100%;
+    margin: -20px;
+    padding: 0 20px;
 }
 
 .tab-item {
@@ -346,4 +341,26 @@ ul {
 
 .item {
     width: 100%;
+}
+
+#scroll {
+    position: fixed;
+    bottom: 100px;
+    left: 70px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+#scroll svg {
+    height: 60px;
+    width: 60px;
+}
+
+.isShowBtn {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.isShowBtn_hide {
+    opacity: 0;
 }
