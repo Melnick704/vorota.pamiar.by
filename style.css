@@ -356,11 +356,11 @@ ul {
     width: 60px;
 }
 
-.isShowBtn {
-    opacity: 1;
-    transition: 0.2s;
+.btn {
+    opacity: 0;
+    transition: 0.2s ease-in-out;
 }
 
-.isShowBtn_hide {
-    opacity: 0;
+.btn_show {
+    opacity: 1;
 }

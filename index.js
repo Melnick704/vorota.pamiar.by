@@ -40,12 +40,12 @@ const checkoutTabs = (item, index) => {
 tabItems.forEach(checkoutTabs)
 
 
-const scrollBtn = document.querySelector('.isShowBtn');
+const scrollBtn = document.querySelector('.btn');
 window.onscroll = () => {
   if (window.scrollY > 400) {
-    scrollBtn.classList.remove('isShowBtn_hide');
+    scrollBtn.classList.add('btn_show');
   } else if (window.screenY < 400) {
-    scrollBtn.classList.add('isShowBtn_hide');
+    scrollBtn.classList.remove('btn_show');
   } 
 };
 
