@@ -51,8 +51,8 @@ html {
 
 .but {
     background-color: #2C94FC;
-    height: 60px;
-    width: 230px;
+    height: 3.1vw;
+    width: 12vw;
     display: flex;
     justify-content: center;
     align-items: center;
