@@ -58,6 +58,7 @@ html {
     align-items: center;
     color: white;
     font-weight: 600;
+    font-size: 0.8vw;
     text-decoration: none;
     cursor: pointer;
 }
