@@ -403,8 +403,8 @@ ul {
 }
 
 .pop-up-body p {
+    font-weight: 700;
     text-align: left;
-    padding-left: 45px;
 }
 
 .pop-up-body input {
@@ -420,13 +420,23 @@ ul {
 .pop-up-body button {
     cursor: pointer;
     display: block;
-    width: 330px;
+    width: 100%;
     margin: 60px auto 0px auto;
     padding: 20px 0px;
     background-color: #2C94FC;
     border-radius: 10px;
     border: none;
     color: white;
+    transition: background-color 0.13s ease-in-out;
+}
+
+.pop-up-body button:hover {
+    background-color: #2189f1;
+}
+
+form {
+    width: 75%;
+    margin: 0px auto;
 }
 
 .pop-up-close {
