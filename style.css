@@ -6,6 +6,8 @@
 
 html {
     scroll-behavior: smooth;
+    margin-right: calc(-1 * (100vw - 100%));
+
 }
 
 .header-wrapper {
@@ -364,6 +366,77 @@ ul {
 }
 
 .btn_show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.pop-up {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.541);
+    z-index: 2;
+}
+
+.pop-up-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.pop-up-body {
+    margin: auto;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 15px 110px 15px;
+    position: relative;
+}
+
+.pop-up-body input:focus {
+    outline-color: #2C94FC;
+}
+
+.pop-up-body p {
+    text-align: left;
+    padding-left: 45px;
+}
+
+.pop-up-body input {
+    display: block;
+    margin: 25px auto 0px auto;
+    width: 330px;
+    padding: 17px 20px;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    border: none;
+}
+
+.pop-up-body button {
+    cursor: pointer;
+    display: block;
+    width: 330px;
+    margin: 60px auto 0px auto;
+    padding: 20px 0px;
+    background-color: #2C94FC;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.pop-up-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.pop-up.active {
     opacity: 1;
     visibility: visible;
 }
