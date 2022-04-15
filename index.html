@@ -323,7 +323,7 @@
         <label>Имя</label>
         <input type="text" name="user-name" id="name" pattern="^[А-Яа-яЁё\s]+$" placeholder="Михаил"></input>
         <label>Телефон</label>
-        <input type="tel" name="user-phone" id="phone" placeholder="+375 (29) 556-58-38"></inputs>
+        <input type="tel" name="user-phone" id="phone" pattern="\+375[0-9]{8}" placeholder="+375 (29) 556-58-38"></inputs>
         <button id="submit" type="submit">Отправить</button>
       </form>
       <div class="pop-up-close" id="pop-up-close">&#10006</div>
