@@ -6,8 +6,6 @@
 
 html {
     scroll-behavior: smooth;
-    margin-right: calc(-1 * (100vw - 100%));
-
 }
 
 .header-wrapper {
@@ -449,4 +447,8 @@ form {
 .pop-up.active {
     opacity: 1;
     visibility: visible;
+}
+
+body.lock {
+    overflow: hidden;
 }

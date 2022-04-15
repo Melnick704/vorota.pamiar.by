@@ -7,13 +7,15 @@ openPopUp.addEventListener('click', function(e){
     popUp.classList.add('active');
     const popUpActive = document.querySelector('.pop-up.active');
     if (popUpActive) {
-        document.body.style.overflowY = "hidden";
+        bodyLock();
     }
     
 })
 
 closePopUp.addEventListener('click', () => {
     popUp.classList.remove('active');
-    document.body.style.overflowY = "visible";
 })
 
+function bodyLock() {
+    const lockPaddingValue = window.innerWidth - document.querySelector('.wallpaper').offsetWidth + 'px';
+}
