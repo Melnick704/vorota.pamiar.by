@@ -149,6 +149,8 @@ html {
 .logo {
     font-weight: 700;
     font-size: 1.3vw;
+    text-decoration: none;
+    color: black;
 }
 
 .logo-1 {
@@ -388,7 +390,7 @@ ul {
     background-color: white;
     border-radius: 10px;
     text-align: center;
-    padding: 100px 15px 110px 15px;
+    padding: 100px 15px 80px 15px;
     position: relative;
 }
 
@@ -403,7 +405,6 @@ ul {
 
 .pop-up-body input {
     display: block;
-    margin: 25px auto 0px auto;
     width: 330px;
     padding: 17px 20px;
     background-color: #E5E5E5;
@@ -415,7 +416,7 @@ ul {
     cursor: pointer;
     display: block;
     width: 100%;
-    margin: 60px auto 0px auto;
+    margin: 80px auto 0px auto;
     padding: 20px 0px;
     background-color: #2C94FC;
     border-radius: 10px;
@@ -430,7 +431,15 @@ ul {
 
 form {
     width: 75%;
+    display: flex;
+    flex-direction: column;
     margin: 0px auto;
+}
+
+form label {
+    text-align: left;
+    font-weight: 600;
+    margin: 45px 0px 20px;
 }
 
 .pop-up-close {
@@ -453,3 +462,51 @@ body {
 body.lock {
     overflow: hidden;
 }
+
+.ok-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: calc(100vh - 75px);
+    flex-direction: column;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 35px;
+}
+
+.green-circle {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-color: #00b87f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.come-back {
+    color: #2189f1;
+    text-decoration: none;
+    margin-top: 0px;
+    font-size: 0.8vw;
+}
+
+.call-back {
+    font-size: 1.5vw;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.fa-xmark {
+    color: black;
+    font-size: 20px;
+    transition: color 0.13s ease-in-out;
+}
+
+.fa-xmark:hover {
+    color: #2189f1;
+}
+
