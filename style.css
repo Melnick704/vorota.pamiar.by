@@ -61,6 +61,11 @@ html {
     font-size: 0.8vw;
     text-decoration: none;
     cursor: pointer;
+    transition: background-color 0.13s ease-in-out;
+}
+
+.but:hover {
+    background-color: #2189f1;
 }
 
 .main-text {
@@ -500,7 +505,7 @@ body.lock {
 }
 
 .come-back {
-    color: #2189f1;
+    color: #2C94FC;
     text-decoration: none;
     margin-top: 0px;
     font-size: 0.8vw;
@@ -519,7 +524,7 @@ body.lock {
 }
 
 .fa-xmark:hover {
-    color: #2189f1;
+    color: #2C94FC;
 }
 
 
