@@ -93,7 +93,7 @@
     <div class="description">
       <p class="part-title">Title</p>
       <p style="width: 100%;">Ворота. Хорошие ворота - залог красивой жизни. Купи ворота и будь счастлив. Ворота создают тепло и комфорт</p>
-      <div class="but">click me</div>
+      <a href="#" class="but open-pop-up" id="open-pop-up">click me</a>
     </div>
     <img src="files/SST_Me-144-1.png" style="height: 425px; width: 375px;"></img>
     <div></div>
@@ -106,7 +106,7 @@
         <p class="number" style="width: auto;">02</p>
       </div>
       <p style="width: 100%;">Ворота. Хорошие ворота - залог красивой жизни. Купи ворота и будь счастлив. Ворота создают тепло и комфорт</p>
-      <div class="but">click me</div>
+      <a href="#" class="but open-pop-up" id="open-pop-up">click me</a>
     </div>
   </div>
 
@@ -265,7 +265,7 @@
   
   <div class="help-wrapper">
     <p class="part-title" style="font-size: 2.3vw;">Есть вопросы? Будем рады помочь!</p>
-    <a href="#" class="but open-pop-up">click me</a>
+    <a href="#" class="but open-pop-up" id="open-pop-up">click me</a>
   </div>
 
     <!--Подвал-->
@@ -323,7 +323,7 @@
         <label>Имя</label>
         <input type="text" name="user-name" id="name" pattern="^[А-Яа-яЁё\s]+$" placeholder="Михаил" required></input>
         <label>Телефон</label>
-        <input type="tel" name="user-phone" id="phone" pattern="\+375[0-9]{9}" placeholder="+375 (29) 556-58-38" required></inputs>
+        <input type="tel" name="user-phone" id="phone" pattern="^\+375 \((17|29|25|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$"" placeholder="+375 (29) 394-23-08" required></inputs>
         <button id="submit" type="submit">Отправить</button>
       </form>
       <div class="pop-up-close" id="pop-up-close">&#10006</div>
@@ -332,5 +332,7 @@
 </div>
 
 <script src="index.js"></script>
+<script src="inputmask.min.js"></script>
+<script src="just-validate.min.js "></script>
 <script src="main.js"></script>
 </html>
