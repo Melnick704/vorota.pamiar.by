@@ -194,9 +194,11 @@ html {
     width: 14px;
 }
 
-.facebook-logo, .inst-logo {
-    height: 20px;
-    width: 20px;
+.fa-facebook, .fa-instagram {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.13s ease-in-out;
 }
 
 .a-class {
@@ -219,21 +221,17 @@ html {
     color:#2C94FC;
 }
 
-.fcbk {
+.fcbk, .inst {
     display: flex;
+    text-decoration: none;
 }
 
-.inst-1, .fcbk-1 {
-    fill: black;
-    transition: fill 0.13s ease-in-out;
+.fa-facebook:hover {
+    color: #2C94FC;
 }
 
-.social-item.inst:hover .inst-1 {
-    fill: #2C94FC;
-}
-
-.fcbk:hover .fcbk-1 {
-    fill: #2C94FC;
+.fa-instagram:hover {
+    color: #2C94FC;
 }
 
 .vorota-wrapper {
@@ -321,21 +319,35 @@ ul {
     color: black;
 }
 
-.item-line svg {
-    height: 24px;
-    width: auto;
-    padding-right: 15px;
-    padding-left: 40px;
-}
-
 .item-line, .description-item, .galerea-item {
     display: flex;
     align-items: center;
 }
 
+.description-item svg {
+    height: 26px;
+    width: auto;
+}
+
+.description-item p {
+    margin-left: 15px;
+}
+
+.galerea-item p {
+    margin-left: 15px;
+}
+
+.galerea-item svg {
+    height: 26px;
+    width: auto;
+}
+
 .item-line {
     justify-content: left;
-    margin-left: -40px;
+}
+
+.description-item {
+    margin-left: 30px;
 }
 
 .item {
@@ -509,4 +521,5 @@ body.lock {
 .fa-xmark:hover {
     color: #2189f1;
 }
+
 
