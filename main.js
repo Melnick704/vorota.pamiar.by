@@ -50,3 +50,15 @@ let inputs = document.querySelectorAll('input[type="tel"]');
 let im = new Inputmask('+375 (99) 999-99-99');
 im.mask(inputs);
 
+let coll = document.querySelector('.collapsible'),
+con = document.querySelector('.content');
+coll.addEventListener('click', function () {
+  coll.classList.toggle('active');
+    if (con.style.maxHeight == 0) {
+      con.style.maxHeight = con.scrollHeight + 'px';
+    } else  
+        if (con.style.maxHeight = con.scrollHeight + 'px') {
+          con.style.maxHeight = null;
+    }
+  })
+
