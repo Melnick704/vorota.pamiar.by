@@ -1,17 +1,3 @@
-/*
-1 способ
-Алгоритм:
-    1 Устанавливаем active классы вручную на кнопку и на блок-контента
-    2 Скрываем в CSS все блоки контента, кроме активного
-    3 в JS обрабатываем клик по кнопкам
-    4 При клике:
-        - проверяем содержание active класса, что бы избежать лишних вызовов ф-ций
-        - очищаем циклом все active - классы у кнопок и у блок-контента
-            для этого напишем функцию очистки классов
-        - устанавливаем новый активный класс
-            для этого напишем функцию установки активного класса
-*/
-
 const tabItems = Array.from(document.querySelectorAll('.tab-item'))
 const contentItems = Array.from(document.querySelectorAll('.content-item'))
 
@@ -27,7 +13,6 @@ const checkoutTabs = (item, index) => {
   item.addEventListener('click', () => {
     
     if (item.classList.contains('is-active')) return
-    console.log(item)
   
     clearActiveClass(tabItems)
     clearActiveClass(contentItems)
@@ -38,17 +23,3 @@ const checkoutTabs = (item, index) => {
 }
 
 tabItems.forEach(checkoutTabs)
-
-
-const scrollBtn = document.querySelector('.btn');
-window.onscroll = () => {
-  if (window.scrollY > 400) {
-    scrollBtn.classList.add('btn_show');
-  } else if (window.screenY < 400) {
-    scrollBtn.classList.remove('btn_show');
-  } 
-};
-
-scrollBtn.onclick = () => {
-  window.scrollTo(0, 0);
-};
