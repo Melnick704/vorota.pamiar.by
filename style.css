@@ -505,22 +505,10 @@ body.lock {
 }
 
 .come-back {
+    color: #2C94FC;
     text-decoration: none;
     margin-top: 0px;
     font-size: 0.8vw;
-    cursor: pointer;
-    display: flex;
-    margin: 60px auto 0px auto;
-    padding: 16px;
-    background-color: #2C94FC;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    transition: background-color 0.13s ease-in-out;
-}
-
-.come-back:hover {
-    background-color: #2189f1;
 }
 
 .call-back {
