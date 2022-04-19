@@ -549,6 +549,8 @@ body.lock {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
+    width: auto;
 }
 
 .clients__items {
@@ -607,113 +609,113 @@ body.lock {
 /*/////////////////////*/
 
 .kfc-logo {
-    width: auto;
-    height: 69px;
+    width: 80px;
+    height: 80px;
 }
 
 .velesmit-logo {
-    width: auto;
-    height: 69px;
+    width: 80px;
+    height: 80px;
 }
 
 .belmarket-logo {
-    width: auto;
-    height: 69px;
+    width: 80px;
+    height: 80px;
 }
 
 .garage-logo {
-    width: auto;
-    height: 40px;
+    width: 100px;
+    height: 100px;
 }
 
 .volna-logo {
-    width: auto;
-    height: 28px;
+    width: 120px;
+    height: 120px;
 }
 
 .smarton-logo {
-    width: auto;
-    height: 43px;
+    width: 120px;
+    height: 120px;
 }
 
 .tn-logo {
-    width: auto;
-    height: 40px;
+    width: 120px;
+    height: 120px;
 }
 
 .mf-logo {
-    width: auto;
-    height: 40px;
+    width: 100px;
+    height: 100px;
 }
 
 .gefest-logo {
-    width: auto;
-    height: 38px;
+    width: 120px;
+    height: 120px;
 }
 
 .greatstone-logo {
-    width: 45px;
-    height: auto;
+    width: 80px;
+    height: 80px;
 }
 
 .sparo-logo {
-    width: auto;
-    height: 69px;
+    width: 80px;
+    height: 80px;
 }
 
 .shugar-logo {
-    width: auto;
-    height: 69px;
+    width: 80px;
+    height: 80px;
 }
 
 .belorusneft-logo {
-    width: auto;
-    height: 69px;
+    width: 80px;
+    height: 80px;
 }
 
 .mcdonalds-logo {
-    width: auto;
-    height: 69px;
+    width: 80px;
+    height: 80px;
 }
 
 .metro-logo {
-    width: auto;
-    height: 69px;
+    width: 80px;
+    height: 80px;
 }
 
 .abc-logo {
-    width: auto;
-    height: 57px;
+    width: 100px;
+    height: 100px;
 }
 
 .grad-logo {
-    width: auto;
-    height: 79px;
+    width: 85px;
+    height: 85px;
 }
 
 .hippo-logo {
-    width: auto;
-    height: 20px;
+    width: 120px;
+    height: 120px;
 }
 
 .euroopt-logo {
-    width: auto;
-    height: 25px;
+    width: 120px;
+    height: 120px;
 }
 
 .sosedi-logo {
-    width: auto;
-    height: 25px;
+    width: 120px;
+    height: 120px;
 }
 
 .vitalur-logo {
-    width: auto;
-    height: 25px;
+    width: 120px;
+    height: 120px;
 }
 
 .green-logo {
-    width: auto;
-    height: 40px;
+    width: 120px;
+    height: 120px;
 }
 
 /*/////////////////////*/
