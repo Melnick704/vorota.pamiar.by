@@ -516,6 +516,7 @@ body.lock {
     border-radius: 10px;
     border: none;
     color: white;
+    font-weight: 600;
     transition: background-color 0.13s ease-in-out;
 }
 

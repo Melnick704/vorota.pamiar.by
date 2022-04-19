@@ -9,6 +9,7 @@ const lockPaddingValue = window.innerWidth - document.querySelector('.wallpaper'
     el.addEventListener('click', function (e) {
         e.preventDefault();
         popUp.classList.add('active');
+        scrollBtn.classList.remove('btn_show');
         const popUpActive = document.querySelector('.pop-up.active');
         if (popUpActive) {
             bodyLock();
@@ -30,6 +31,7 @@ scrollBtn.onclick = () => {
 };
 
 closePopUp.addEventListener('click', () => {
+    scrollBtn.classList.remove('btn_show');
     popUp.classList.remove('active');
     bodyUnlock();
 })
@@ -37,13 +39,11 @@ closePopUp.addEventListener('click', () => {
 function bodyLock() {
     body.classList.add('lock');
     body.style.paddingRight=lockPaddingValue;
-    scrollBtn.classList.remove('btn_show');
 }
 
 function bodyUnlock() {
     body.classList.remove('lock');
     body.style.paddingRight = 0;
-    scrollBtn.classList.add('btn_show');
 }
 
 let inputs = document.querySelectorAll('input[type="tel"]');
