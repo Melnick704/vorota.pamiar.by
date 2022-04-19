@@ -39,7 +39,7 @@ html {
 }
 
 .wallpaper {
-    height: 750px;
+    height: 85.2vh;
     width: 100%;
     background-image: url(files/SST_Me-143.png);
     background-position: center;
@@ -247,7 +247,7 @@ html {
 
 .item-title {
     font-weight: 600;
-    font-size: 22px;
+    font-size: 1.26vw;
     margin-top: 30px;
     margin-bottom: 30px;
     color: black;
@@ -335,7 +335,7 @@ ul {
 }
 
 .description-item p {
-    margin-left: 15px;
+    margin-left: 0.8vw;
 }
 
 .galerea-item p {
