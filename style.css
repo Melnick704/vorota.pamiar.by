@@ -596,7 +596,7 @@ body.lock {
 }
   
 .collapsible::before {
-    content: 'Показать всё';
+    content: 'Не убедительно?';
     color: #a7a7a7;
     cursor: pointer;
     transition: color 0.13s ease-in-out;
