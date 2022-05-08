@@ -8,6 +8,15 @@ html {
     scroll-behavior: smooth;
 }
 
+
+input.is-valid-input  {
+    background-color: #e7f0fe !important;
+}
+
+input.is-invalid-input {
+    border: 2px solid red !important;
+}
+
 .header-wrapper {
     width: 70vw;
     height: 75px;

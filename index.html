@@ -391,12 +391,12 @@
 <div class="pop-up" id="pop-up">
   <div class="pop-up-container">
     <div class="pop-up-body" id="pop-up-body">
-      <form action="https://helmet.by/vorota/telegram.php" method="get" id="form">
+      <form action="https://helmet.by/vorota/telegram.php" method="get" id="form" autocomplete="off">
         <p class="part-title" style="margin: 0px">Оставьте заявку</p>
         <label for="name">Имя</label>
-        <input type="text" name="user-name" id="name" pattern="^[А-Яа-яЁё\s]+$" placeholder="Василий" required></input>
+        <input autocomplete="off" type="text" name="user-name" id="name" pattern="^[А-Яа-яЁё\s]+$" placeholder="Василий" required></input>
         <label for="phone">Телефон</label>
-        <input type="tel" name="user-phone" id="phone" pattern="^\+375 \((17|29|25|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$"" placeholder="+375 (29) 394-23-08" required></inputs>
+        <input autocomplete="off" type="tel" name="user-phone" id="phone" pattern="^\+375 \((17|29|25|33|44)\) [0-9]{3}-[0-9]{2}-[0-9]{2}$"" placeholder="+375 (29) 394-23-08" required></inputs>
         <button id="submit" type="submit">Отправить</button>
       </form>
       <div class="pop-up-close" id="pop-up-close"><i class="fa-solid fa-xmark"></i></div>
@@ -404,7 +404,8 @@
   </div>
 </div>
 
-<script src="index.js"></script>
-<script src="inputmask.min.js"></script>
-<script src="main.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript" src="inputmask.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="input.js"></script>
 </html>
