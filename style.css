@@ -1367,7 +1367,6 @@ body.lock {
     }
 
     .vorota-header {
-        display: none;
     }
 
     .description {
@@ -1416,6 +1415,36 @@ body.lock {
     #scroll {
         left: 20px !important;
         bottom: 20px !important;
+    }
+
+    .vorota-wrapper {
+        max-width: 100%;
+        margin:  80px 0 0;
+        padding: 0 10%;
+    }
+
+    .content-item.is-active {
+        grid-template-columns: 49% 49%;
+        margin: -10px;
+    }
+
+    li {
+        padding: 5px 10px !important;
+    }
+
+    .vorota-menu {
+        flex-wrap: wrap;
+        margin: 0 -10px;
+        order: 3;
+    }
+
+    .vorota-header {
+        flex-wrap: wrap;
+        margin-right: 0;
+    }
+
+    .adapt {
+        padding: 0 !important;
     }
 }
 
