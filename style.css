@@ -1307,4 +1307,58 @@ body.lock {
     fill: #0da018;
 }
 
+@media screen and (max-width: 560px) {
+    .menu {
+        display: none;
+    }
+
+    .header-wrapper {
+        justify-content: center;
+    }
+
+    .logo {
+        font-size: 5vw;
+    }
+
+    .wallpaper {
+        height: 50vh;
+    }
+
+    .main-text-wrapper {
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    .main-text {
+        font-size: 8vw;
+        margin-bottom: 20px;
+    }
+
+    .but {
+        height: 12.4vw;
+        width: 48vw;
+        font-size: 3vw;
+    }
+
+    .stat-wrapper {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .main-stat-text {
+        font-size: 12vw;
+        margin-bottom: 0;
+    }
+
+    .sub-stat-text {
+        font-size: 4vw;
+    }
+
+    .stat-item {
+        padding: 10px 0;
+    }
+}
+
 
