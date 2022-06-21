@@ -1338,6 +1338,7 @@ body.lock {
         height: 12.4vw;
         width: 48vw;
         font-size: 3vw;
+        margin: 0 10%;
     }
 
     .stat-wrapper {
@@ -1358,6 +1359,46 @@ body.lock {
 
     .stat-item {
         padding: 10px 0;
+    }
+
+    .first-part-wrapper, .second-part-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .vorota-header {
+        display: none;
+    }
+
+    .description {
+        width: 100% !important;
+        order: 3;
+    }
+
+    .number {
+        font-size: 4vw;
+        padding: 0 10%;
+        order: 1;
+    }
+
+    .part-title {
+        padding: 0 10%;
+        font-size: 7vw;
+        order: 2;
+    }
+
+    .description p {
+        padding: 0 10%;
+        width: auto !important;
+    }
+
+    .first-part-wrapper, .second-part-wrapper img {
+        width: 100% !important;
+        order: 1;
+    }
+
+    .part-title-number {
+        flex-direction: column;
     }
 }
 
